@@ -8,6 +8,8 @@ composer install
 echo "echo"
 npm install
 
+npm run build
+
 echo "Caching config..."
 php artisan config:cache
 
