@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -66,11 +66,11 @@ return [
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'dpg-cpklaga0si5c73csp8o0-a'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'railway_w0ru'),
+            'username' => env('DB_USERNAME', 'railway_w0ru_user'),
+            'password' => env('DB_PASSWORD', 'Fr0PmMiMjzl7S3wQF1nC179Dr7yh9K82'),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
